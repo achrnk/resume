@@ -7,62 +7,74 @@
     <meta name="keywords" content="resume, chernenko">
     <meta name="description" content="Резюме Черненко Анастасии Романовны">
     <title>Анастасия Черненко</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="naiadanelia.jpg" width="170">
-    <h1>Анастасия Черненко</h1>
-    <h3>Мои увлечения:</h3>
-<Ul>
-    <li>Программирование</li>
-    <li>Музыка</li>
-    <li>Литература</li>
-    <li>Танцы</li>
+    <img class= img src="naiadanelia.jpg">
+    <h1 class="header">Анастасия Черненко</h1>
+<div class="card">
+    <h3 class="header1">Мои увлечения:</h3> 
+    <br>
+<Ul">
+    <li class="text">Программирование</li>
+    <li class="text">Музыка</li>
+    <li class="text">Литература</li>
+    <li class="text">Танцы</li>
 </Ul>
-
-<h3> Опыт работы</h3>
-
+</div>
+<div class="card">
+<h3 class="header1"> Опыт работы</h3>
+<br>
 <table>
     <thread>
         <tr>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Период работы</th>
+            <th class="header2" id="strong">Компания</th>
+            <th class="header2" id="strong">Должность</th>
+            <th class="header2" id="strong">Период работы</th>
         </tr>
     </thread>
     <tbody>
         <tr>
-            <td>РЖД Медицина</td>
-            <td>Администратор</td>
-            <td>Ноябрь 2022 - по наст. вр.</td>
+            <td class="text">РЖД Медицина</td>
+            <td class="text">Администратор</td>
+            <td class="text">Ноябрь 2022 - по наст. вр.</td>
         </tr>
         <tr>
-            <td>РПЦ</td>
-            <td>Регент</td>
-            <td>2012-2022</td>
+    
+            <td class="text">РПЦ</td>
+            <td class="text">Регент</td>
+            <td class="text">2012-2022</td>
+    
         </tr>
     </tbody>
 </table>
-<h3>Связаться со мной</h3>
-<div>
-    <label for="text"></label>Ваше имя:</label>
-    <input type="text" id="text" placeholder="Введите имя">
 </div>
-<div>
-    <label for="email">Ваш email:</label>
+<div class="card">
+    <h3 class="header1">Связаться со мной</h3>
+    <br>
+<div class="form-group">
+<label for="name" class="header2">Ваше имя:</label>
+<input type="text" id="text" placeholder="Введите имя">
+</div>
+<div class="form-group">
+    <label for="email" class="header2">Ваш email:</label>
     <input type="email" id="email" placeholder="Введите email">
 </div>
-<div>
-    <label for="message">Ваше сообщение:</label>
     <br>
-    <textarea id="message" cols="32" rows="10" 
+<div class="form-group1">
+    <label for="message" class="header2">Ваше сообщение:</label>
+    <textarea id="message" cols="10" rows="7" 
     placeholder="Введите сообщение..."></textarea>
 </div>
+<br>
+<br>
 <div>
-    <button tupe="submit">Отправить!</button>
+    <button type="submit" class="text btn">Отправить!</button>
+    </div>
 </div>
 <br>
-    <a href="https://instagram.com/a.chrnk" target="_blank">  Instagram</a> |
-    <a href="https://t.me/ch21nai" target="_blank"> Telegram</a>
-
+<div class="link">
+    <a href="https://t.me/d21nai" target="_blank">Связаться со мной в Telegram</a>
+</div>
 </body>
 </html>
