@@ -1,2 +1,3 @@
 # Мое резюме
-## Ознакомиться можно [здесь](https://achrnk.github.io/resume/)
+## И моя первая работа в HTML & CSS!
+##№ Ознакомиться можно [здесь](https://achrnk.github.io/resume/)
